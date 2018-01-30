@@ -1,0 +1,8 @@
+{
+ ; This file is a vestige of a broken build system
+ ; Move this file, and prepare to face pain.
+ :require [datsync.app]                                ; this this even used?
+ ; this is a bad idea
+ :init-fns [datsync.app/init!]
+ :compiler-options {:asset-path "/js/main.out"
+                    :parallel-build true}}

@@ -1,0 +1,3 @@
+[submodule "checkouts/datahike"]
+	path = checkouts/datahike
+	url = https://github.com/bamarco/datahike
